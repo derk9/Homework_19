@@ -1,0 +1,43 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-link {
+  color: black;
+}
+.nav-bar {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+}
+.jumbotron {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+  padding-top: 50px;
+  padding-right: 75px;
+  position: relative;
+  color: white;
+}
+.card {
+  padding: 20px;
+  text-align: center;
+}
+.portrait {
+  padding-bottom: 40px;
+  animation: bouncePortrait 1s infinite;
+}
+@keyframes bouncePortrait {
+  from {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 8px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+.aboutMe {
+  padding-top: 100px;
+}
