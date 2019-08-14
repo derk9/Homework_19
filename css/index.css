@@ -26,6 +26,7 @@ body {
 .portrait {
   padding-bottom: 40px;
   animation: bouncePortrait 1s infinite;
+
 }
 @keyframes bouncePortrait {
   from {
@@ -40,4 +41,10 @@ body {
 }
 .aboutMe {
   padding-top: 100px;
+}
+.about {
+  height: 650px;
+}
+.cards {
+  margin-top: 15px;
 }
