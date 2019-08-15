@@ -61,6 +61,7 @@ body {
 .loader {
   animation: spin 3s ease;
   width: 150px;
+  margin-left: 675px;
 }
 @keyframes spin {
   0% {
